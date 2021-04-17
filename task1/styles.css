@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;  
+}
+header{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+header h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+main{
+    display: flex;
+}
+section{
+    flex: 70%;
+    padding: 40px 20px;
+}
+section p{
+    margin-bottom: 20px;
+}
+aside{
+    border-left: 1px solid lightgray;
+    flex: 30%;
+    height: calc(100vh - 440px);
+    padding: 40px 20px;
+}
+aside p, ul, ol{
+    margin-bottom: 20px;
+}
+footer{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid lightgray;
+}
